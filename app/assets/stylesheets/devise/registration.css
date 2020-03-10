@@ -1,0 +1,48 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+.top-contents {
+  display: flex;
+  padding: 0 30px;
+  
+}
+
+.side-introduction {
+  width: 50%;
+}
+.registration-form {
+  height: 600px;
+  width: 50%;
+}
+
+.field {
+  padding: 5px 0px;
+}
+
+.form-u {
+  height: 20px;
+  width: 200px;
+}
+
+.submit {
+  margin-top: 5px;
+  width: 205px;
+  height: 40px;
+  background-color: #000000;
+  font-size: large;
+}
+
+.submit:hover{
+  background: #e6d221; /* 少し濃い黄色 */
+  border: solid 4px #e6d221; /* 少し濃い黄色 */
+}
+
+.submit:active{
+  background: #beae1c; /* 濃い黄色 */
+}
+
+.top > h1{
+  text-align: center;
+}
